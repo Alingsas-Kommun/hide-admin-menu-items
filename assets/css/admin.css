@@ -1,0 +1,357 @@
+.hami-container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    max-width: 1500px;
+    position: relative;
+}
+
+.hami-content-wrapper {
+    display: flex;
+    gap: 2rem;
+    flex: 1;
+}
+
+.hami-save-box {
+    flex: 0 0 120px;
+    position: sticky;
+    top: 62px;
+    height: fit-content;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e2e4e7;
+}
+
+.hami-save-box .button-primary {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    background: #204f3f;
+    border-color: #204f3f;
+}
+
+.hami-save-box .button-primary:hover {
+    background: #1a4234;
+    border-color: #1a4234;
+}
+
+.hami-roles-column {
+    flex: 0 0 250px;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 62px;
+    height: fit-content;
+    border: 1px solid #e2e4e7;
+}
+
+.hami-roles-column h2 {
+    margin-top: 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e2e4e7;
+    color: #1d2327;
+    font-size: 1.2em;
+}
+
+.hami-roles-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hami-roles-list li {
+    margin-bottom: 0.75rem;
+    transition: all 0.2s ease;
+}
+
+.hami-roles-list li.active label {
+    background: #f0f6f4;
+    color: #204f3f;
+    font-weight: 500;
+}
+
+.hami-roles-list label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    color: #50575e;
+}
+
+.hami-roles-list label:hover {
+    background: #f6f7f7;
+    color: #204f3f;
+}
+
+.hami-roles-list input[type="radio"]:checked + span {
+    color: #204f3f;
+    font-weight: 600;
+}
+
+.hami-settings-column {
+    flex: 1;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e2e4e7;
+}
+
+.hami-settings-content {
+    padding: 1.5rem;
+}
+
+.hami-menu-items-list,
+.hami-admin-bar-items-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hami-menu-item {
+    border-bottom: 1px solid #e2e4e7;
+    padding-bottom: 1rem;
+    transition: all 0.2s ease;
+}
+
+.hami-menu-item:last-child {
+    border-bottom: none;
+}
+
+.hami-menu-item > label {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    color: #1d2327;
+}
+
+.hami-submenu-items {
+    margin-left: 2rem;
+    margin-top: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 1rem;
+    border-left: 2px solid #e2e4e7;
+}
+
+.hami-submenu-items label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    color: #50575e;
+}
+
+/* Tab Navigation Styles */
+.nav-tab-wrapper {
+    margin: 0;
+    padding: 1rem 1.5rem 0;
+    border-bottom: 1px solid #e2e4e7;
+    display: flex;
+    gap: 0.5rem;
+    background: #fff;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.nav-tab {
+    padding: 0.75rem 1.25rem;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 500;
+    color: #50575e;
+    text-decoration: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    transition: all 0.2s ease;
+    background: transparent;
+    float: none;
+}
+
+.nav-tab:hover {
+    color: #204f3f;
+    background: transparent;
+}
+
+.nav-tab-active {
+    color: #204f3f;
+    border-bottom-color: #204f3f;
+    font-weight: 600;
+    background: transparent;
+}
+
+.nav-tab-active:hover {
+    background: transparent;
+    color: #204f3f;
+}
+
+/* Content Header Styles */
+.hami-content-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e2e4e7;
+}
+
+.hami-content-header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.hami-content-header-title {
+    margin: 0;
+    color: #1d2327;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.hami-content-header-description {
+    color: #646970;
+    font-size: 0.9em;
+    margin: 0.5rem 0 0;
+    line-height: 1.5;
+}
+
+.hami-current-role {
+    font-size: 0.85em;
+    color: #204f3f;
+    font-weight: 500;
+    padding: 0.4em 0.8em;
+    background: #f0f6f4;
+    border-radius: 3px;
+    border: 1px solid #c5ded6;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+/* Checkbox styling */
+.hami-container input[type="checkbox"] {
+    position: relative;
+    border: 1px solid #8c8f94;
+    border-radius: 3px;
+    background: #fff;
+    cursor: pointer;
+    line-height: 0;
+    margin: 0 0.5rem 0 0;
+    outline: 0;
+    padding: 0 !important;
+    vertical-align: middle;
+    height: 18px;
+    width: 18px;
+    -webkit-appearance: none;
+    appearance: none;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+}
+
+.hami-container input[type="checkbox"]:hover {
+    border-color: #204f3f;
+}
+
+.hami-container input[type="checkbox"]:checked {
+    background: #204f3f;
+    border-color: #204f3f;
+}
+
+.hami-container input[type="checkbox"]:checked::before {
+    content: '';
+    position: absolute;
+    left: 63%;
+    top: 32%;
+    width: 3px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 1.5px 1.5px 0;
+    transform: rotate(45deg);
+    display: block;
+}
+
+/* Radio button styling */
+.hami-container input[type="radio"] {
+    position: relative;
+    border: 1px solid #8c8f94;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    line-height: 0;
+    margin: 0 0.5rem 0 0;
+    outline: 0;
+    padding: 0 !important;
+    vertical-align: middle;
+    height: 18px;
+    width: 18px;
+    -webkit-appearance: none;
+    appearance: none;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+}
+
+.hami-container input[type="radio"]:hover {
+    border-color: #204f3f;
+}
+
+.hami-container input[type="radio"]:checked {
+    border-color: #204f3f;
+}
+
+.hami-container input[type="radio"]:checked::before {
+    content: '';
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #204f3f;
+    display: block;
+}
+
+/* Intermediate checkbox state */
+.hami-container input[type="checkbox"]:indeterminate {
+    background: #fff;
+    border-color: #204f3f;
+}
+
+.hami-container input[type="checkbox"]:indeterminate::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 8px;
+    height: 2px;
+    background: #204f3f;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 782px) {
+    .hami-content-wrapper {
+        flex-direction: column;
+    }
+    
+    .hami-save-box {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: auto;
+        z-index: 100;
+        border-radius: 0;
+        padding: 1rem;
+        margin-left: 0;
+        background: #fff;
+        box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.08);
+    }
+} 
