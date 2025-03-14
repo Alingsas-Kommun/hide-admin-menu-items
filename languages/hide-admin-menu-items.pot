@@ -1,0 +1,66 @@
+# Copyright (C) 2025 Cursor AI
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hide Admin Menu Items 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hide-admin-menu-items\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-03-14T16:17:55+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: hide-admin-menu-items\n"
+
+#. Plugin Name of the plugin
+#: hide-admin-menu-items.php
+#: includes/classes/class-admin-settings.php:32
+#: includes/classes/class-admin-settings.php:33
+msgid "Hide Admin Menu Items"
+msgstr ""
+
+#. Description of the plugin
+#: hide-admin-menu-items.php
+msgid "Hide WordPress admin menu items based on user roles"
+msgstr ""
+
+#. Author of the plugin
+#: hide-admin-menu-items.php
+msgid "Cursor AI"
+msgstr ""
+
+#: includes/classes/class-admin-settings.php:162
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: includes/views/settings-page.php:16
+msgid "User Roles"
+msgstr ""
+
+#: includes/views/settings-page.php:32
+#: includes/views/settings-page.php:44
+msgid "Menu Items"
+msgstr ""
+
+#: includes/views/settings-page.php:35
+#: includes/views/settings-page.php:46
+msgid "New content"
+msgstr ""
+
+#: includes/views/settings-page.php:50
+msgid "Editing: %s"
+msgstr ""
+
+#: includes/views/settings-page.php:53
+msgid "Choose which items to hide"
+msgstr ""
+
+#: includes/views/settings-page.php:108
+msgid "Save Settings"
+msgstr ""
+
+#: assets/js/admin.js:54
+msgid "Editing:"
+msgstr ""

@@ -30,6 +30,33 @@ Hide Admin Menu Items is a powerful WordPress plugin designed to help administra
 4. Save your changes
 5. Repeat for other user roles as needed
 
+## Translations
+
+The plugin comes with support for multiple languages. Here's how to work with translations:
+
+### Updating Translation Template
+
+To update the POT (template) file when new strings are added to the plugin:
+
+```bash
+wp i18n make-pot . languages/hide-admin-menu-items.pot
+```
+
+### Adding a New Translation
+
+1. Copy the template file to create a new PO file for your language:
+   ```bash
+   cp languages/hide-admin-menu-items.pot languages/hide-admin-menu-items-{language_code}.po
+   ```
+   Replace {language_code} with your language code (e.g., sv_SE for Swedish)
+
+2. Edit the PO file using a translation editor like Poedit
+3. Save the file - this will automatically generate the required .mo file
+
+### Available Translations
+
+- Swedish (sv_SE)
+
 ## Requirements
 
 - WordPress 5.0 or higher

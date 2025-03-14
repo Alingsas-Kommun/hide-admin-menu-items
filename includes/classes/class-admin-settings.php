@@ -29,8 +29,8 @@ class HAMI_Admin_Settings {
 
     public function add_settings_page() {
         add_options_page(
-            __('Hide Admin Things', 'hide-admin-menu-items'),
-            __('Hide Admin Things', 'hide-admin-menu-items'),
+            __('Hide Admin Menu Items', 'hide-admin-menu-items'),
+            __('Hide Admin Menu Items', 'hide-admin-menu-items'),
             'manage_options',
             'hide-admin-menu-items',
             array($this, 'render_settings_page')
